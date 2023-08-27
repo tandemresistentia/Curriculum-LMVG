@@ -1,0 +1,205 @@
+.project-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;  
+
+    min-height: 963px;
+    height: 100%;
+    width: 85%;
+
+}
+
+.project-title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;   
+}
+
+.project-title-exalted{
+    color: var(--exalt, #D48550);
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;    
+}
+
+.project-bellow-bar{
+    width: 65%;
+    height: 4px;    
+    border-radius: 5px;
+    background: #D9D9D9;
+}
+.project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    gap: 40px;
+
+}
+.project-container-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    
+    padding: 30px;
+    border-radius: 17px;
+    border: 1px solid #424557;
+    background: #1F212B;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 28%;
+
+}
+
+.project-container-item-image{
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.project-container-item-title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-bottom: 0;
+}
+
+.project-container-item-subtitle{
+    color: #8C8C8C;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;   
+    width: 65%; 
+    margin-bottom: 5px;
+}
+
+.project-container-item-attribute-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-container-item-attribute{
+    color: #8C8C8C;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    
+    border-radius: 13px;
+    border: 1px solid #494C5E;
+    background: #2D2F3B;  
+    width: 100%; 
+    padding: 5px;
+}
+
+.project-container-item-href-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;    
+}
+
+.project-container-item-href-1{
+    color: #D48550;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+    text-decoration: none; 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.project-orange-arrow{
+    transition: transform 0.5s ease-in-out;
+}
+.project-container-item-href-1:hover .project-orange-arrow {
+    transform: rotate(410deg);
+}
+
+
+
+.project-container-item-href-2{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.project-white-arrow{
+    transition: transform 0.5s ease-in-out;
+}
+.project-container-item-href-2:hover .project-white-arrow {
+    transform: rotate(310deg);
+}
+
+.project-socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+@media screen and (max-width: 500px) {
+
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        gap: 40px;
+    
+    }
+
+    .project-container-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start; 
+        
+        padding: 30px;
+        border-radius: 17px;
+        border: 1px solid #424557;
+        background: #1F212B;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        width: 90%;
+    
+    }
+
+    .project-socials{
+        margin-top: 40px;
+    }
+}

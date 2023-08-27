@@ -1,0 +1,244 @@
+.hero-app{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 85%;
+    margin-top: 25px;
+
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    min-height: 800px;
+}
+
+.hero-left-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;   
+    margin-top: 40px;
+
+}
+
+.hero-title-arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.hero-title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;  
+    margin: 0px; 
+}
+
+.hero-arrow-indication{
+    margin-top: -120px;
+    transform: translateY(70px);
+}
+
+.hero-title-1{
+    color: #D48650;
+    font-family: Poppins;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+    margin: 0px;   
+}
+
+.hero-subtitle{
+    color: #60647C;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+    margin-top: 0px;   
+}
+
+.title-button-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    width: 75%;   
+    margin-top: 30px;
+}
+
+.title-button-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 39px;
+    background: #D48550;
+    height: 59px;
+    padding-left: 15px;
+    padding-right: 30px;
+    gap: 15px;
+    cursor: pointer;
+    border: none;
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    transition: background 0.25s ease-in, color 0.25s ease-in;
+}
+
+.title-button-1:hover {
+    background: #FFF;
+    color: #D48550;
+}
+
+.title-button-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    gap: 5px;
+    
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: color 0.3s ease-in-out;
+}
+
+.arrow-speed{
+    z-index: 2;
+    transition: transform 0.3s ease-in-out;
+}
+
+.title-button-2:hover .arrow-speed {
+    transform: translateX(23px); /* New position on hover */
+}
+.title-button-2:hover{
+    color: #D48550;
+}
+.button-circle-2{
+    width: 42px;
+    height: 42px;
+    border-radius: 23px;
+    border: 1px solid #FFF;
+    background: #282A36; 
+    margin-left: -25px; 
+    z-index: 1;
+}
+
+.hero-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+
+    min-height: 800px;
+
+    
+}
+.chevron-down-class{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;  
+    min-height: 600px;
+    margin-right: 123px;
+}
+
+.hero-right-group{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;    
+}
+.hero-title-small{
+    color: #282A36;
+    /* Hero-title-right */
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+    margin: 0;
+}
+
+.hero-title-small-1{
+    color: #D48550;
+    /* Hero-title-right */
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+    margin: 0; 
+}
+@media screen and (max-width: 1200px) {
+    .hero-right{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero-app{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        width: 85%;
+        margin-top: 25px;
+    
+    }
+
+    .hero-arrow-indication{
+        display: none;
+    }
+    .hero-right{
+        display: none;
+    }
+    .hero-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start; 
+        min-height: 700px;
+    }
+
+    .hero-middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; 
+    
+        min-height: 600px;
+    
+        
+    }
+}
