@@ -25,7 +25,7 @@ const About = () => {
         </div>
 
         <div className='about-app-content-middle'>
-          <img src={AboutImage}/>
+          <img src={AboutImage} alt='AboutImage'/>
         </div>
         <div className='about-app-content-right'>
         
