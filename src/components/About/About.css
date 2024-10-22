@@ -1,16 +1,15 @@
-.about-app{
+.about-app {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;  
-    
     min-height: 963px;
     height: 100%;
     width: 85%;
     margin-bottom: 35px;
 }
 
-.about-app-title{
+.about-app-title {
     color: #FFF;
     text-align: center;
     font-family: Poppins;
@@ -20,37 +19,41 @@
     line-height: normal;    
 }
 
-.bellow-bar{
+.bellow-bar {
     width: 160px;
     height: 4px;
     border-radius: 5px;
     background: #D9D9D9;
+    margin-top: 8px;
 }
-.about-app-content{
+
+.about-app-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;   
     width: 100%;   
+    gap: 24px;
 }
 
-.about-app-content-text{
+.about-app-content-text {
     color: #FFF;
     font-family: Poppins;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;    
-
-
     padding: 20px;
     border-radius: 19px;
     background: #2C2E37;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
 
-.about-app-content-text-exalted{
-    color: var(--exalt, #D48550);
+.about-app-content-text-exalted {
+    color: #D48550;
     font-family: Poppins;
     font-size: 25px;
     font-style: normal;
@@ -59,40 +62,49 @@
     text-transform: uppercase;    
 }
 
-.about-app-content-left{
+.about-app-content-left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;      
+    align-items: flex-start;
+    gap: 24px;
 }
 
+.tech-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    gap: 8px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
 
+.about-app-content-text:hover .tech-icons {
+    opacity: 1;
+    transform: translateY(0);
+}
 
-
-
-
+.tech-icon {
+    color: #D48550;
+    width: 24px;
+    height: 24px;
+}
 
 @media screen and (max-width: 1300px) {
-
-    .about-app{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;  
-        
-        min-height: 963px;
-        height: 100%;
-        width: 85%;
+    .about-app {
         margin-top: 50px;
-        margin-bottom: 35px;
     }
     
-    .about-app-content{
-        display: flex;
+    .about-app-content {
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;   
-        width: 100%;   
     }
 
+    .tech-icons {
+        position: static;
+        margin-top: 12px;
+        opacity: 1;
+        transform: none;
+    }
 }
