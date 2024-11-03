@@ -4,6 +4,7 @@ import './Project.css'
 import Project1 from '../../assets/Project/project-1.png'
 import Project2 from '../../assets/Project/project-2.png'
 import Project3 from '../../assets/Project/project-3.png'
+import Project4 from '../../assets/Project/project-4.png'
 import WhiteArrow from '../../assets/Project/white-arrow.png'
 import OrangeArrow from '../../assets/Project/orange-arrow.png'
 import Github from '../../assets/Project/github.png'
@@ -75,7 +76,7 @@ const Project = () => {
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
         >
           <div className="project-image-container">
-            <img className='project-container-item-image' src={Project3} alt="Project3"/>
+            <img className='project-container-item-image' src={Project4} alt="Project3"/>
           </div>
           <div className="project-content">
             <div className="project-header">
@@ -121,7 +122,7 @@ const Project = () => {
             </div>
           </div>
         </motion.div>
-        
+
         <motion.div 
           className='project-container-item'
           variants={itemVariants}
