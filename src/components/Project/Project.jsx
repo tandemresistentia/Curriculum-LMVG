@@ -69,93 +69,7 @@ const Project = () => {
         initial="hidden"
         animate="visible"
       >
-        <motion.div 
-          className='project-container-item'
-          variants={itemVariants}
-          whileHover={{ y: -10, transition: { duration: 0.2 } }}
-        >
-          <div className="project-image-container">
-            <img className='project-container-item-image' src={Project1} alt="Project1"/>
-          </div>
-          <div className="project-content">
-            <div className="project-header">
-              <p className='project-container-item-title'>
-                <ProjectIcon type="ecommerce" /> E-commerce for Shoe enthusiasts
-              </p>
-            </div>
-            <p className='project-container-item-subtitle'>Effortless shoe shopping with engaging interface.</p>
-            <div className='project-container-item-attribute-group'>
-              <p className='project-container-item-attribute'><Globe size={14} /> React</p>
-              <p className='project-container-item-attribute'><Server size={14} /> Django</p>
-              <p className='project-container-item-attribute'><Database size={14} /> PostgreSQL</p>
-            </div>
-            <div className='project-container-item-href-group'>
-              <a href='https://github.com/tandemresistentia/Footfab' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
-                View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
-              </a> 
-            </div>
-          </div>
-        </motion.div>
-
-        <motion.div 
-          className='project-container-item'
-          variants={itemVariants}
-          whileHover={{ y: -10, transition: { duration: 0.2 } }}
-        >
-          <div className="project-image-container">
-            <img className='project-container-item-image' src={Project2} alt="Project2"/>
-          </div>
-          <div className="project-content">
-            <div className="project-header">
-              <p className='project-container-item-title'>
-                <ProjectIcon type="swimming" /> Swimtrack. A fitness website
-              </p>
-            </div>
-            <p className='project-container-item-subtitle'>Empowers swimmers to track progress and access to resources.</p>
-            <div className='project-container-item-attribute-group'>
-              <p className='project-container-item-attribute'><Globe size={14} /> React</p>
-              <p className='project-container-item-attribute'><Server size={14} /> Django</p>
-              <p className='project-container-item-attribute'><Database size={14} /> PostgreSQL</p>
-            </div>
-            <div className='project-container-item-href-group'>
-              <a href='https://github.com/tandemresistentia/Swimming-Fitness' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
-                View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
-              </a> 
-            </div>
-          </div>
-        </motion.div>
-
-        <motion.div 
-          className='project-container-item'
-          variants={itemVariants}
-          whileHover={{ y: -10, transition: { duration: 0.2 } }}
-        >
-          <div className="project-image-container">
-            <img className='project-container-item-image' src={Project3} alt="Project3"/>
-          </div>
-          <div className="project-content">
-            <div className="project-header">
-              <p className='project-container-item-title'>
-                <ProjectIcon type="monitoring" /> Terra - Advanced Pipeline Leak Detection
-              </p>
-            </div>
-            <p className='project-container-item-subtitle'>An interactive water leak management system with real-time metrics, geographical mapping, customizable filtering, and detailed analysis tools.</p>
-            <div className='project-container-item-attribute-group'>
-              <p className='project-container-item-attribute'><Globe size={14} /> Angular</p>
-              <p className='project-container-item-attribute'><Server size={14} /> Node.js</p>
-              <p className='project-container-item-attribute'><Database size={14} /> MongoDB</p>
-            </div>
-          </div>
-        </motion.div>
-
-      </motion.div>
-      <motion.div 
-        className='project-container'
-        variants={containerVariants}
-        initial="hidden"
-        animate="visible"
-      >
-      <motion.div 
+              <motion.div 
           className='project-container-item'
           variants={itemVariants}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
@@ -184,6 +98,93 @@ const Project = () => {
             </div>
           </div>
         </motion.div>
+
+        <motion.div 
+          className='project-container-item'
+          variants={itemVariants}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+        >
+          <div className="project-image-container">
+            <img className='project-container-item-image' src={Project3} alt="Project3"/>
+          </div>
+          <div className="project-content">
+            <div className="project-header">
+              <p className='project-container-item-title'>
+                <ProjectIcon type="monitoring" /> Terra - Advanced Pipeline Leak Detection
+              </p>
+            </div>
+            <p className='project-container-item-subtitle'>An interactive water leak management system with real-time metrics, geographical mapping, customizable filtering, and detailed analysis tools.</p>
+            <div className='project-container-item-attribute-group'>
+              <p className='project-container-item-attribute'><Globe size={14} /> Angular</p>
+              <p className='project-container-item-attribute'><Server size={14} /> Node.js</p>
+              <p className='project-container-item-attribute'><Database size={14} /> MongoDB</p>
+            </div>
+          </div>
+        </motion.div>
+        
+        <motion.div 
+          className='project-container-item'
+          variants={itemVariants}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+        >
+          <div className="project-image-container">
+            <img className='project-container-item-image' src={Project1} alt="Project1"/>
+          </div>
+          <div className="project-content">
+            <div className="project-header">
+              <p className='project-container-item-title'>
+                <ProjectIcon type="ecommerce" /> E-commerce for Shoe enthusiasts
+              </p>
+            </div>
+            <p className='project-container-item-subtitle'>Effortless shoe shopping with engaging interface.</p>
+            <div className='project-container-item-attribute-group'>
+              <p className='project-container-item-attribute'><Globe size={14} /> React</p>
+              <p className='project-container-item-attribute'><Server size={14} /> Django</p>
+              <p className='project-container-item-attribute'><Database size={14} /> PostgreSQL</p>
+            </div>
+            <div className='project-container-item-href-group'>
+              <a href='https://github.com/tandemresistentia/Footfab' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
+                View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
+              </a> 
+            </div>
+          </div>
+        </motion.div>
+
+      </motion.div>
+      <motion.div 
+        className='project-container'
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.div 
+          className='project-container-item'
+          variants={itemVariants}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+        >
+          <div className="project-image-container">
+            <img className='project-container-item-image' src={Project2} alt="Project2"/>
+          </div>
+          <div className="project-content">
+            <div className="project-header">
+              <p className='project-container-item-title'>
+                <ProjectIcon type="swimming" /> Swimtrack. A fitness website
+              </p>
+            </div>
+            <p className='project-container-item-subtitle'>Empowers swimmers to track progress and access to resources.</p>
+            <div className='project-container-item-attribute-group'>
+              <p className='project-container-item-attribute'><Globe size={14} /> React</p>
+              <p className='project-container-item-attribute'><Server size={14} /> Django</p>
+              <p className='project-container-item-attribute'><Database size={14} /> PostgreSQL</p>
+            </div>
+            <div className='project-container-item-href-group'>
+              <a href='https://github.com/tandemresistentia/Swimming-Fitness' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
+                View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
+              </a> 
+            </div>
+          </div>
+        </motion.div>
+
         </motion.div>
       <motion.div 
         className='project-socials'
