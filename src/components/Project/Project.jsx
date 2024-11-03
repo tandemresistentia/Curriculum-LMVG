@@ -5,6 +5,7 @@ import Project1 from '../../assets/Project/project-1.png'
 import Project2 from '../../assets/Project/project-2.png'
 import Project3 from '../../assets/Project/project-3.png'
 import WhiteArrow from '../../assets/Project/white-arrow.png'
+import OrangeArrow from '../../assets/Project/orange-arrow.png'
 import Github from '../../assets/Project/github.png'
 import Linkedin from '../../assets/Project/linkedin.png'
 import Gmail from '../../assets/Project/gmail.png'
@@ -146,8 +147,44 @@ const Project = () => {
             </div>
           </div>
         </motion.div>
-      </motion.div>
 
+      </motion.div>
+      <motion.div 
+        className='project-container'
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+      >
+      <motion.div 
+          className='project-container-item'
+          variants={itemVariants}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+        >
+          <div className="project-image-container">
+            <img className='project-container-item-image' src={Project3} alt="Project3"/>
+          </div>
+          <div className="project-content">
+            <div className="project-header">
+              <p className='project-container-item-title'>
+                <ProjectIcon type="monitoring" /> ByteLabyrinth: Custom Web Development Solutions Platform
+              </p>
+            </div>
+            <p className='project-container-item-subtitle'>ByteLabyrinth is a professional MEAN stack platform that bridges the gap between clients and web development services.</p>
+            <div className='project-container-item-attribute-group'>
+              <p className='project-container-item-attribute'><Globe size={14} /> Angular</p>
+              <p className='project-container-item-attribute'><Server size={14} /> Node.js</p>
+              <p className='project-container-item-attribute'><Database size={14} /> MongoDB</p>
+            </div>
+            <div className='project-container-item-href-group'>
+              <a href='https://github.com/tandemresistentia/ByteLabyrinth' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
+                View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
+              </a> 
+              <a href='https://bytelabyrinth-production.up.railway.app/' target="_blank" rel="noreferrer" className='project-container-item-href-1'>
+                  Live Website <img className='project-orange-arrow' src={OrangeArrow} alt="Orange Arrow"/></a>
+            </div>
+          </div>
+        </motion.div>
+        </motion.div>
       <motion.div 
         className='project-socials'
         initial={{ opacity: 0, y: 20 }}
