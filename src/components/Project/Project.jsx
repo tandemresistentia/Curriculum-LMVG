@@ -10,7 +10,7 @@ import OrangeArrow from '../../assets/Project/orange-arrow.png'
 import Github from '../../assets/Project/github.png'
 import Linkedin from '../../assets/Project/linkedin.png'
 import Gmail from '../../assets/Project/gmail.png'
-import { Database, Globe, Server, ShoppingBag, Waves, Droplet } from 'lucide-react'
+import { Database, Globe, Server, ShoppingBag, Waves, Code2,Droplet } from 'lucide-react'
 
 const Project = () => {
   const emailAddress = 'luismvg41@gmail.com';
@@ -41,7 +41,8 @@ const Project = () => {
     const icons = {
       ecommerce: <ShoppingBag className="project-icon" />,
       swimming: <Waves className="project-icon" />, 
-      monitoring: <Droplet className="project-icon" />
+      monitoring: <Droplet className="project-icon" />,
+      code: <Code2 className="project-icon" />
     };
     return icons[type];
   };
@@ -81,7 +82,7 @@ const Project = () => {
           <div className="project-content">
             <div className="project-header">
               <p className='project-container-item-title'>
-                <ProjectIcon type="monitoring" /> ByteLabyrinth: Custom Web Development Solutions Platform
+                <ProjectIcon type="code" /> ByteLabyrinth: Custom Web Development Solutions Platform
               </p>
             </div>
             <p className='project-container-item-subtitle'>ByteLabyrinth is a professional MEAN stack platform that bridges the gap between clients and web development services.</p>
