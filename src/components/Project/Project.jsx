@@ -95,7 +95,7 @@ const Project = () => {
               <a href='https://github.com/tandemresistentia/ByteLabyrinth' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
                 View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
               </a> 
-              <a href='https://bytelabyrinth-production.up.railway.app/' target="_blank" rel="noreferrer" className='project-container-item-href-1'>
+              <a href='https://www.bytelabyrinth.com/' target="_blank" rel="noreferrer" className='project-container-item-href-1'>
                   Live Website <img className='project-orange-arrow' src={OrangeArrow} alt="Orange Arrow"/></a>
             </div>
           </div>
