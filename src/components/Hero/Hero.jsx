@@ -41,11 +41,11 @@ const AnimatedTechStack = () => {
   const techCategories = [
     {
       category: "Frontend",
-      tech: "React / Angular"
+      tech: "React / Angular / Vue"
     },
     {
       category: "Backend",
-      tech: "Express / Node.js / Django / Python"
+      tech: "Express / Node.js / Django / Python / Spring Boot / .NET"
     },
     {
       category: "Databases",
