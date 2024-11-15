@@ -5,6 +5,7 @@ import Project1 from '../../assets/Project/project-1.png'
 import Project2 from '../../assets/Project/project-2.png'
 import Project3 from '../../assets/Project/project-3.png'
 import Project4 from '../../assets/Project/project-4.png'
+import Project5 from '../../assets/Project/project-5.png'
 import WhiteArrow from '../../assets/Project/white-arrow.png'
 import OrangeArrow from '../../assets/Project/orange-arrow.png'
 import Github from '../../assets/Project/github.png'
@@ -71,7 +72,7 @@ const Project = () => {
         initial="hidden"
         animate="visible"
       >
-              <motion.div 
+        <motion.div 
           className='project-container-item'
           variants={itemVariants}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
@@ -101,6 +102,36 @@ const Project = () => {
           </div>
         </motion.div>
 
+            <motion.div 
+        className='project-container-item'
+        variants={itemVariants}
+        whileHover={{ y: -10, transition: { duration: 0.2 } }}
+      >
+        <div className="project-image-container">
+          <img className='project-container-item-image' src={Project5} alt="TeamSync Platform"/>
+        </div>
+        <div className="project-content">
+          <div className="project-header">
+            <p className='project-container-item-title'>
+              <ProjectIcon type="code" /> TeamSync: Enterprise Workforce Orchestration Platform
+            </p>
+          </div>
+          <p className='project-container-item-subtitle'>
+            A comprehensive resource management solution that streamlines team coordination, project tracking, and resource allocation through real-time analytics.
+          </p>
+          <div className='project-container-item-attribute-group'>
+            <p className='project-container-item-attribute'><Globe size={14} /> Vue.js</p>
+            <p className='project-container-item-attribute'><Server size={14} /> Spring Boot</p>
+            <p className='project-container-item-attribute'><Database size={14} /> PostgreSQL</p>
+          </div>
+          <div className='project-container-item-href-group'>
+            <a href='https://github.com/tandemresistentia/TeamSync' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
+              View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
+            </a> 
+          </div>
+        </div>
+      </motion.div>
+
         <motion.div 
           className='project-container-item'
           variants={itemVariants}
@@ -124,70 +155,70 @@ const Project = () => {
           </div>
         </motion.div>
 
-        <motion.div 
-          className='project-container-item'
-          variants={itemVariants}
-          whileHover={{ y: -10, transition: { duration: 0.2 } }}
-        >
-          <div className="project-image-container">
-            <img className='project-container-item-image' src={Project1} alt="Project1"/>
-          </div>
-          <div className="project-content">
-            <div className="project-header">
-              <p className='project-container-item-title'>
-                <ProjectIcon type="ecommerce" /> E-commerce for Shoe enthusiasts
-              </p>
-            </div>
-            <p className='project-container-item-subtitle'>Effortless shoe shopping with engaging interface.</p>
-            <div className='project-container-item-attribute-group'>
-              <p className='project-container-item-attribute'><Globe size={14} /> React</p>
-              <p className='project-container-item-attribute'><Server size={14} /> Django</p>
-              <p className='project-container-item-attribute'><Database size={14} /> PostgreSQL</p>
-            </div>
-            <div className='project-container-item-href-group'>
-              <a href='https://github.com/tandemresistentia/Footfab' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
-                View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
-              </a> 
-            </div>
-          </div>
-        </motion.div>
-
       </motion.div>
-      <motion.div 
-        className='project-container'
-        variants={containerVariants}
-        initial="hidden"
-        animate="visible"
-      >
-        <motion.div 
-          className='project-container-item'
-          variants={itemVariants}
-          whileHover={{ y: -10, transition: { duration: 0.2 } }}
-        >
-          <div className="project-image-container">
-            <img className='project-container-item-image' src={Project2} alt="Project2"/>
-          </div>
-          <div className="project-content">
-            <div className="project-header">
-              <p className='project-container-item-title'>
-                <ProjectIcon type="swimming" /> Swimtrack. A fitness website
-              </p>
-            </div>
-            <p className='project-container-item-subtitle'>Empowers swimmers to track progress and access to resources.</p>
-            <div className='project-container-item-attribute-group'>
-              <p className='project-container-item-attribute'><Globe size={14} /> React</p>
-              <p className='project-container-item-attribute'><Server size={14} /> Django</p>
-              <p className='project-container-item-attribute'><Database size={14} /> PostgreSQL</p>
-            </div>
-            <div className='project-container-item-href-group'>
-              <a href='https://github.com/tandemresistentia/Swimming-Fitness' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
-                View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
-              </a> 
-            </div>
-          </div>
-        </motion.div>
 
-        </motion.div>
+      <motion.div 
+  className='project-container'
+  variants={containerVariants}
+  initial="hidden"
+  animate="visible"
+>
+  <motion.div 
+    className='project-container-item'
+    variants={itemVariants}
+    whileHover={{ y: -10, transition: { duration: 0.2 } }}
+  >
+    <div className="project-image-container">
+      <img className='project-container-item-image' src={Project1} alt="Project1"/>
+    </div>
+    <div className="project-content">
+      <div className="project-header">
+        <p className='project-container-item-title'>
+          <ProjectIcon type="ecommerce" /> E-commerce for Shoe enthusiasts
+        </p>
+      </div>
+      <p className='project-container-item-subtitle'>Effortless shoe shopping with engaging interface.</p>
+      <div className='project-container-item-attribute-group'>
+        <p className='project-container-item-attribute'><Globe size={14} /> React</p>
+        <p className='project-container-item-attribute'><Server size={14} /> Django</p>
+        <p className='project-container-item-attribute'><Database size={14} /> PostgreSQL</p>
+      </div>
+      <div className='project-container-item-href-group'>
+        <a href='https://github.com/tandemresistentia/Footfab' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
+          View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
+        </a> 
+      </div>
+    </div>
+  </motion.div>
+  <motion.div 
+    className='project-container-item'
+    variants={itemVariants}
+    whileHover={{ y: -10, transition: { duration: 0.2 } }}
+  >
+    <div className="project-image-container">
+      <img className='project-container-item-image' src={Project2} alt="Project2"/>
+    </div>
+    <div className="project-content">
+      <div className="project-header">
+        <p className='project-container-item-title'>
+          <ProjectIcon type="swimming" /> Swimtrack. A fitness website
+        </p>
+      </div>
+      <p className='project-container-item-subtitle'>Empowers swimmers to track progress and access to resources.</p>
+      <div className='project-container-item-attribute-group'>
+        <p className='project-container-item-attribute'><Globe size={14} /> React</p>
+        <p className='project-container-item-attribute'><Server size={14} /> Django</p>
+        <p className='project-container-item-attribute'><Database size={14} /> PostgreSQL</p>
+      </div>
+      <div className='project-container-item-href-group'>
+        <a href='https://github.com/tandemresistentia/Swimming-Fitness' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
+          View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
+        </a> 
+      </div>
+    </div>
+  </motion.div>
+</motion.div>
+
       <motion.div 
         className='project-socials'
         initial={{ opacity: 0, y: 20 }}
