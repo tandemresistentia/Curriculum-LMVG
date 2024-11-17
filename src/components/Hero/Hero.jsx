@@ -45,7 +45,7 @@ const AnimatedTechStack = () => {
     },
     {
       category: "Backend",
-      tech: "Express / Node.js / Django / Python / Spring Boot / .NET"
+      tech: "Express / Node.js / Django / Spring Boot / .NET"
     },
     {
       category: "Databases",
