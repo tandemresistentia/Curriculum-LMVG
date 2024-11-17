@@ -76,7 +76,7 @@ const About = () => {
             👋 Hey there! I'm a seasoned 
             <span className='about-app-content-text-exalted'> Full Stack Developer </span> 
             passionate about crafting immersive web experiences. With 
-            <span className='about-app-content-text-exalted'> years </span> 
+            <span className='about-app-content-text-exalted'> 3+ years </span> 
             of coding under my belt, I excel in translating complex concepts into user-friendly interfaces.
             <span className='tech-icons'>
               <Code className='tech-icon' />
