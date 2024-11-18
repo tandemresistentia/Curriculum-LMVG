@@ -149,7 +149,7 @@ const Project = () => {
             <p className='project-container-item-subtitle'>An interactive water leak management system with real-time metrics, geographical mapping, customizable filtering, and detailed analysis tools.</p>
             <div className='project-container-item-attribute-group'>
               <p className='project-container-item-attribute'><Globe size={14} /> Angular</p>
-              <p className='project-container-item-attribute'><Server size={14} /> Node.js</p>
+              <p className='project-container-item-attribute'><Server size={14} /> .NET</p>
               <p className='project-container-item-attribute'><Database size={14} /> MongoDB</p>
             </div>
           </div>
