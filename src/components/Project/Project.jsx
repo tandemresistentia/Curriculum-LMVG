@@ -87,11 +87,6 @@ const Project = () => {
               </p>
             </div>
             <p className='project-container-item-subtitle'>ByteLabyrinth is a professional MEAN stack platform that bridges the gap between clients and web development services.</p>
-            <div className='project-container-item-attribute-group'>
-              <p className='project-container-item-attribute'><Globe size={14} /> Angular</p>
-              <p className='project-container-item-attribute'><Server size={14} /> Node.js</p>
-              <p className='project-container-item-attribute'><Database size={14} /> MongoDB</p>
-            </div>
             <div className='project-container-item-href-group'>
               <a href='https://github.com/tandemresistentia/ByteLabyrinth' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
                 View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
@@ -119,11 +114,6 @@ const Project = () => {
           <p className='project-container-item-subtitle'>
             A comprehensive resource management solution that streamlines team coordination, project tracking, and resource allocation through real-time analytics.
           </p>
-          <div className='project-container-item-attribute-group'>
-            <p className='project-container-item-attribute'><Globe size={14} /> Vue.js</p>
-            <p className='project-container-item-attribute'><Server size={14} /> Spring Boot</p>
-            <p className='project-container-item-attribute'><Database size={14} /> PostgreSQL</p>
-          </div>
           <div className='project-container-item-href-group'>
             <a href='https://github.com/tandemresistentia/TeamSync' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
               View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
@@ -147,11 +137,6 @@ const Project = () => {
               </p>
             </div>
             <p className='project-container-item-subtitle'>An interactive water leak management system with real-time metrics, geographical mapping, customizable filtering, and detailed analysis tools.</p>
-            <div className='project-container-item-attribute-group'>
-              <p className='project-container-item-attribute'><Globe size={14} /> React</p>
-              <p className='project-container-item-attribute'><Server size={14} /> .NET</p>
-              <p className='project-container-item-attribute'><Database size={14} /> MongoDB</p>
-            </div>
           </div>
         </motion.div>
 
@@ -178,11 +163,6 @@ const Project = () => {
         </p>
       </div>
       <p className='project-container-item-subtitle'>Effortless shoe shopping with engaging interface.</p>
-      <div className='project-container-item-attribute-group'>
-        <p className='project-container-item-attribute'><Globe size={14} /> React</p>
-        <p className='project-container-item-attribute'><Server size={14} /> Django</p>
-        <p className='project-container-item-attribute'><Database size={14} /> PostgreSQL</p>
-      </div>
       <div className='project-container-item-href-group'>
         <a href='https://github.com/tandemresistentia/Footfab' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
           View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
@@ -205,11 +185,6 @@ const Project = () => {
         </p>
       </div>
       <p className='project-container-item-subtitle'>Empowers swimmers to track progress and access to resources.</p>
-      <div className='project-container-item-attribute-group'>
-        <p className='project-container-item-attribute'><Globe size={14} /> React</p>
-        <p className='project-container-item-attribute'><Server size={14} /> Django</p>
-        <p className='project-container-item-attribute'><Database size={14} /> PostgreSQL</p>
-      </div>
       <div className='project-container-item-href-group'>
         <a href='https://github.com/tandemresistentia/Swimming-Fitness' target="_blank" rel="noreferrer" className='project-container-item-href-2'>
           View Code <img className='project-white-arrow' src={WhiteArrow} alt="White Arrow"/>
