@@ -11,7 +11,7 @@ import OrangeArrow from '../../assets/Project/orange-arrow.png'
 import Github from '../../assets/Project/github.png'
 import Linkedin from '../../assets/Project/linkedin.png'
 import Gmail from '../../assets/Project/gmail.png'
-import { Database, Globe, Server, ShoppingBag, Waves, Code2,Droplet } from 'lucide-react'
+import { ShoppingBag, Waves, Code2,Droplet } from 'lucide-react'
 
 const Project = () => {
   const emailAddress = 'luismvg41@gmail.com';
